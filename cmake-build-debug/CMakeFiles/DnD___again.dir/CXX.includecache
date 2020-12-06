@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mihai/CLionProjects/DnD - again/Race.h
+string
+-
+character_stats.h
+/home/mihai/CLionProjects/DnD - again/character_stats.h
+
+/home/mihai/CLionProjects/DnD - again/Spec.cpp
+Spec.h
+/home/mihai/CLionProjects/DnD - again/Spec.h
+fstream
+-
+iostream
+-
+
+/home/mihai/CLionProjects/DnD - again/Spec.h
+string
+-
+vector
+-
+Spell.h
+/home/mihai/CLionProjects/DnD - again/Spell.h
+
+/home/mihai/CLionProjects/DnD - again/Spell.h
+string
+-
+character_stats.h
+/home/mihai/CLionProjects/DnD - again/character_stats.h
+
+/home/mihai/CLionProjects/DnD - again/character_stats.h
+ostream
+-
+
+/home/mihai/CLionProjects/DnD - again/main.cpp
+iostream
+-
+main_character.h
+/home/mihai/CLionProjects/DnD - again/main_character.h
+
+/home/mihai/CLionProjects/DnD - again/main_character.cpp
+main_character.h
+/home/mihai/CLionProjects/DnD - again/main_character.h
+iostream
+-
+
+/home/mihai/CLionProjects/DnD - again/main_character.h
+string
+-
+Race.h
+/home/mihai/CLionProjects/DnD - again/Race.h
+Spec.h
+/home/mihai/CLionProjects/DnD - again/Spec.h
+Spell.h
+/home/mihai/CLionProjects/DnD - again/Spell.h
+

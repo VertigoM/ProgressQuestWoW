@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DnD___again.dir/main.cpp.o CMakeFiles/DnD___again.dir/main_character.cpp.o CMakeFiles/DnD___again.dir/Race.cpp.o CMakeFiles/DnD___again.dir/character_stats.cpp.o CMakeFiles/DnD___again.dir/Spec.cpp.o CMakeFiles/DnD___again.dir/Spell.cpp.o  -o DnD___again 
