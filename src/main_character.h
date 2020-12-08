@@ -22,7 +22,7 @@ private:
     int character_level;
     std::unique_ptr<race> some_derived_race;
     std::unique_ptr<character_class> some_derived_character_class;
-    std::vector<spell> class_specific_spells;
+    std::vector<std::unique_ptr<spell>> class_specific_spells;
 };
 
 #endif //DND___AGAIN_MAIN_CHARACTER_H

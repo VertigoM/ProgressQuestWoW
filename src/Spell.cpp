@@ -1,7 +1,7 @@
 #include <utility>
 #include "Spell.h"
 
-/*
+
 offensive_spell::offensive_spell(std::string name, int r, int c,
                                  int s_min, int s_max):
     _name(std::move(name)),
@@ -25,4 +25,3 @@ buff_spell::buff_spell(std::string name, int r, int c,
 std::string buff_spell::get_spell_name() {
     return std::string("buff_spell");
 }
-*/
