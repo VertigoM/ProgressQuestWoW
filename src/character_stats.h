@@ -1,20 +1,13 @@
 #ifndef DND___AGAIN_CHARACTER_STATS_H
 #define DND___AGAIN_CHARACTER_STATS_H
-#include <ostream>
+#include <string>
 
-class characterStats {
+class character_stats{
 public:
-    characterStats();
-    void set_default(int, int, int, int, int);
-    void set_str(int);
-    void set_agi(int);
-    void set_sta(int);
-    void set_intl(int);
-    void set_spi(int);
-
-    //functii
-    friend std::ostream& operator<<(std::ostream &, const characterStats&);
-
+    character_stats() = default;
+    character_stats(int, int, int, int, int);
+    static character_stats select_stats(const std::string&,
+                                        const std::string&);
 private:
     int str, agi, sta, intl, spi;
 };

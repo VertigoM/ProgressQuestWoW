@@ -6,7 +6,7 @@
 class race{
 public:
     virtual ~race() = default;
-    virtual std::string getName() const{
+    virtual std::string get_name() const{
         return std::string("");}
 };
 
@@ -16,7 +16,7 @@ class Alliance{};
 
 class Human : public race, Alliance{
 public:
-    std::string getName() const override{return "Human";}
+    std::string get_name() const override{return "Human";}
 
 private:
     std::string _name = "Human";
@@ -24,7 +24,7 @@ private:
 
 class Dwarf : public race, Alliance{
 public:
-    std::string getName() const override{return "Dwarf";}
+    std::string get_name() const override{return "Dwarf";}
 
 private:
     std::string _name = "Dwarf";
@@ -32,14 +32,14 @@ private:
 
 class NightElf : public race, Alliance{
 public:
-    std::string getName() const override{return "Night Elf";}
+    std::string get_name() const override{return "Night Elf";}
 
 private:
     std::string _name = "Night elf";
 };
 class Gnome : public race, Alliance{
 public:
-    std::string getName() const override{return "Gnome";}
+    std::string get_name() const override{return "Gnome";}
 
 private:
     std::string _name = "Gnome";
@@ -47,7 +47,7 @@ private:
 
 class Orc : public race, Horde{
 public:
-    std::string getName() const override{return "Orc";}
+    std::string get_name() const override{return "Orc";}
 
 private:
     std::string _name = "Orc";
@@ -55,7 +55,7 @@ private:
 
 class Undead : public race, Horde{
 public:
-    std::string getName() const override{return "Undead";}
+    std::string get_name() const override{return "Undead";}
 
 private:
     std::string _name = "Undead";
@@ -63,7 +63,7 @@ private:
 
 class Tauren : public race, Horde{
 public:
-    std::string getName() const override{return "Tauren";}
+    std::string get_name() const override{return "Tauren";}
 
 private:
     std::string _name = "Tauren";
@@ -71,7 +71,7 @@ private:
 
 class Troll : public race, Horde{
 public:
-    std::string getName() const override{return "Troll";}
+    std::string get_name() const override{return "Troll";}
 
 private:
     std::string _name = "Troll";
