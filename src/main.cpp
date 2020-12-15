@@ -1,4 +1,5 @@
 #include <iostream>
+#include "item.h"
 #include "main_character.h"
 
 int main(){
@@ -15,5 +16,16 @@ int main(){
             std::make_unique<Human>(),
             std::make_unique<warrior>()
             );
+
+    std::cout << ch2;
+
+    chest chest1;
+    sword s1("Sabie mare, lunga", 10, 10);
+
+    chest1.add_item(s1);
+
+    chestplate c1("Armura", 123, 123);
+    chest1.add_item(c1);
+    std::cout << chest1;
     return 0;
 }

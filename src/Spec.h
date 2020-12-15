@@ -7,21 +7,17 @@
 
 class character_class{
 public:
-    virtual ~character_class() = default;
-    virtual std::string get_name() const = 0;
+    virtual std::string get_name() const {return std::string("");}
     virtual std::vector<
             std::unique_ptr<spell>>
-            class_spells() const{
+            class_spells() const {
         return std::vector<std::unique_ptr<spell>>();}
-private:
-    std::string _name;
 };
 
 class mage : public character_class{
 public:
     std::string get_name() const override{return "Mage";}
     std::vector<std::unique_ptr<spell>>class_spells() const override;
-
 };
 
 class shaman : public character_class{

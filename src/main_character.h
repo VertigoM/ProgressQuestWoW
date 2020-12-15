@@ -18,6 +18,8 @@ public:
     std::string get_character_race() const;
     friend std::ostream &operator<<(std::ostream&,
             const character&);
+    character(const character&);
+    character& operator=(const character&);
 
 private:
     std::string character_name;

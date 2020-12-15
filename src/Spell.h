@@ -7,7 +7,7 @@ class spell{
 public:
     virtual ~spell() = default;
     //virtual void cast(std::unique_ptr<Main_character>) = 0;
-    virtual std::string get_spell_name() = 0;
+    virtual std::string get_spell_name(){return std::string("");};
 /*private:
     int rank = 0,
         mana_cost = 0;
