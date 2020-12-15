@@ -26,6 +26,11 @@ int main(){
 
     chestplate c1("Armura", 123, 123);
     chest1.add_item(c1);
+
+    chest1.add_item(sword("katana", 100, 100));
     std::cout << chest1;
+
+    chest chest2 = chest1;
+    std::cout << chest2;
     return 0;
 }
