@@ -26,8 +26,8 @@ private:
     int character_level;
     character_stats stats;
     std::unique_ptr<race> some_derived_race;
-    std::unique_ptr<character_class> some_derived_character_class;
     std::vector<std::unique_ptr<spell>> class_specific_spells;
+    std::unique_ptr<character_class> some_derived_character_class;
 };
 
 #endif //DND___AGAIN_MAIN_CHARACTER_H

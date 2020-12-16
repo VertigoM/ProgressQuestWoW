@@ -72,6 +72,6 @@ character_stats character_stats::select_stats(const std::string& str,
     else if(str == "Warrior"){
         return character_stats();
     }
-    else
-        return character_stats();
+
+    return character_stats();
 }
